@@ -80,7 +80,7 @@ body {
 .card__top {
   grid-column: span 2;
   background-color: var(--clr-neutral-white);
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 .card__top h1 {
@@ -136,7 +136,8 @@ body {
   font-weight: var(--fw-regular);
 }
 
-button {
+.card__bottom-pricing a {
+  display: inline-block;
   width: 100%;
   height: 3rem;
   border-radius: 5px;
@@ -148,19 +149,12 @@ button {
   background-color: var(--clr-secondary-Bright-Yellow);
   color: var(--clr-neutral-white);
   margin-top: 2rem;
-}
-
-button a {
   text-decoration: none;
-  color: var(--clr-neutral-white);
+  text-align: center;
+  align-content: center;
 }
 
-button a:hover {
-  color: var(--clr-primary-cyan);
-  transform: color 0.3s;
-}
-
-button:hover {
+.card__bottom-pricing a:hover {
   cursor: pointer;
   background-color: hsl(71, 100%, 54%);
   color: var(--clr-primary-cyan);
@@ -173,7 +167,7 @@ button:hover {
 }
 
 .padding {
-  padding: 2rem;
+  padding: 2.5rem;
 }
 
 footer {
